@@ -15,6 +15,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -96,10 +99,14 @@
                         <div class="about-content" data-aos="fade-left" data-aos-delay="100">
                             <h2>ABOUT ME</h2>
                             <br />
-                            <h3>즐겁게 살자</h3>
+                            <h3>Information</h3>
                             <ul>
                                 <li><i class="bi bi-person"></i> 김민주 </li>
-                                <li><i class="bi bi-book"></i> 협성대학교 컴퓨터공학과 졸업 (2021.02) </li>
+                                <li><i class="bi bi-book"></i> 협성대학교 컴퓨터공학과 졸업 <span style="font-weight: lighter; font-size: smaller">2021.02</span> </li>
+                            </ul>
+                            <br/>
+                            <h3>Now</h3>
+                            <ul>
                                 <li>
                                     <i class="bi bi-arrow-right"></i>
                                     KOSA C# 기반 MES SW 개발자 양성 과정
@@ -125,30 +132,40 @@
                     <p></p>
                 </header>
 
-                <div class="row row-cols-1 g-5">
+                <div class="row g-5">
 
-                    <div class="col" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg" data-aos="zoom-in" data-aos-delay="100">
                         <div class="box">
-                            <div class="icon" style="background: #e1eeff;"><i class="bi bi-bricks" style="color: #2282ff;"></i></div>
-                            <h4 class="title">블록체인을 이용한 온라인 투표 시스템</h4>
-                            <p class="description">
-                                홈페이지에서 선거관리 및 투표를 할 수 있는 프로그램입니다.
-                                투표 시스템에 블록체인 기술을 도입하여, 투표 정보의 위변조를 방지하고 데이터를 안전하게 보관합니다.
-                            </p>
-                            <br />
-                            <p class="description">사용기술 : Solidity, Truffle, HTML/CSS, JavaScript, web3.js </p>
+                            <div class="icon" style="background: #e1eeff; margin: 0 0 30px 0"><i class="bi bi-bricks" style="color: #2282ff;"></i></div>
+                            <div class="row g-4">
+                                <h4 class="title">블록체인을 이용한 온라인 투표 시스템</h4>
+
+                                <p class="description">
+                                    홈페이지에서 선거관리 및 투표를 할 수 있는 프로그램입니다.
+                                    투표 시스템에 블록체인 기술을 도입하여, 투표 정보의 위변조를 방지하고 데이터를 안전하게 보관합니다.
+                                </p>
+
+                                <p class="description-skills">#Solidity #JavaScript #HTML/CSS #Truffle #web3.js </p>
+                                
+                                <a href="assets/img/projects/election-app.png" data-gallery="election-app" class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i> View Image </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="col-lg" data-aos="zoom-in" data-aos-delay="200">
                         <div class="box">
                             <div class="icon" style="background: #e6fdfc;"><i class="bi bi-calendar4-week" style="color: #3fcdc7;"></i></div>
-                            <h4 class="title">Mentoring Class 프로그램</h4>
-                            <p class="description">
-                                멘토와 멘티가 정해진 날짜에 수업 참석이 불가한 경우 참석 가능한 다른 날짜를 선택하고,
-                                멘토와 멘티가 선택한 날짜가 같은 경우 수업을 성사시키는 프로그램입니다.
-                            </p>
-                            <br />
-                            <p class="description">사용기술 : Python, Django, HTML/CSS </p>
+                            <div class="row g-4">
+                                <h4 class="title">Mentoring Class 프로그램</h4>
+
+                                <p class="description">
+                                    멘토와 멘티가 정해진 날짜에 수업 참석이 불가한 경우 참석 가능한 다른 날짜를 선택하고,
+                                    멘토와 멘티가 선택한 날짜가 같은 경우 수업을 성사시키는 프로그램입니다.
+                                </p>
+
+                                <p class="description-skills">#Python #Django #HTML/CSS </p>
+                               
+                                <a href="assets/img/projects/mentoring-class.png" data-gallery="mentoring-class" class="link-preview portfolio-lightbox"><i class="bi bi-plus"></i> View Image </a>
+                            </div>
                         </div>
                     </div>
 
@@ -167,14 +184,14 @@
 
                 <div class="clients-slider swiper">
                     <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="assets/img/clients/csharp.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/javascript.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/skills/csharp.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/skills/mssql.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/skills/javascript.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/skills/html5.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/skills/css3.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/skills/cpp.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/skills/python.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/skills/solidity.png" class="img-fluid" alt=""></div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -236,7 +253,7 @@
                         <p class="cta-text"> Ecount 3조 소개 홈페이지로 이동합니다.</p>
                     </div>
                     <div class="col-lg-3 cta-btn-container text-center">
-                        <a class="cta-btn align-middle" href="#">LET'S GO!!</a>
+                        <a class="cta-btn align-middle" href="http://localhost:9688/index.html" target="_blank">LET'S GO!!</a>
                     </div>
                 </div>
 

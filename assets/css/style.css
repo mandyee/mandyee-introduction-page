@@ -5,13 +5,23 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/* Korean font */
+/*
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+    unicode-range: U+AC00-D7A3;
+}*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
     background: #fff;
     color: #444;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Nanum Gothic', "Open Sans", sans-serif;
 }
 
 a {
@@ -495,7 +505,7 @@ section {
 
         #about .about-content h3 {
             color: #696592;
-            font-weight: 400;
+            font-weight: bold;
             font-size: 22px;
             font-style: italic;
         }
@@ -593,7 +603,6 @@ section {
         transition: all 0.3s ease-in-out;
         text-align: center;
         height: 100%;
-        width: 70%;
         margin: auto;
     }
 
@@ -635,6 +644,14 @@ section {
         line-height: 28px;
         margin-bottom: 0;
         text-align: left;
+    }
+
+    #services .description-skills {
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 28px;
+        margin-bottom: 0;
+        text-align: center;
     }
 
 /* Why Us Section
@@ -1080,6 +1097,8 @@ section {
     #clients img {
         opacity: 0.5;
         transition: 0.3s;
+        width: 70%;
+        height: 70%;
     }
 
         #clients img:hover {
